@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#dialog-container {
+  display: none;
+  justify-content: flex-end;  /* Alinea al final (derecha) */
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#dialog-box {
+  background: rgba(0, 0, 0, 0.7);  /* Fondo negro suave y semi-transparente */
+  padding: 10px;
+  border: 2px solid #000;  /* Borde negro */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 300px;  /* Ancho del cuadro de diálogo */
+  max-width: 300px;  /* Ancho máximo del cuadro de diálogo */
+  text-align: center;
+  position: relative;  /* Posición relativa */
+  margin-right: 20px;  /* Margen derecho */
+}
+
+#dialog-text {
+  color: #fff;  /* Color del texto */
+  margin-bottom: 10px;
+}
+
+

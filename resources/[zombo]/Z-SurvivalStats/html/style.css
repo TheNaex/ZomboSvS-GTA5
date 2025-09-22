@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#hud {
+  position: absolute;
+  bottom: 10px; /* Posición en la parte inferior */
+  right: 10px;  /* Posición en la parte derecha */
+  color: white;
+  background: rgba(0, 0, 0, 0.0); /* Fondo semi-transparente */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#hud div {
+  margin: 5px 0;
+}
+
+#temperature {
+  color: green;
+  font-size: 18px;
+}
+
+
+
+
+

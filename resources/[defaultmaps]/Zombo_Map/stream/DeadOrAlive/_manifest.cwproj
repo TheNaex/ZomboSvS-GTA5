@@ -1,0 +1,29 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>..\mura_stabcity.ymap</Item>
+    <Item>..\mura_stabcity2.ymap</Item>
+    <Item>motel.ymap</Item>
+    <Item>sandy.ymap</Item>
+    <Item>..\zonasegura\hei_cs3_04_critical_0.ymap</Item>
+    <Item>..\zonasegura\hei_cs3_04_long_0.ymap</Item>
+    <Item>..\zonasegura\hei_cs3_04_strm_2.ymap</Item>
+    <Item>..\zonasegura\hei_cs3_04_strm_3.ymap</Item>
+    <Item>..\zonasegura\hei_cs3_04_strm_4.ymap</Item>
+    <Item>..\zonasegura\hei_cs3_04_strm_5.ymap</Item>
+    <Item>..\zonasegura\zonasegura.ymap</Item>
+    <Item>hei_cs3_08f_long_2.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames />
+  <YbnFilenames />
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+  <YdrFilenames />
+  <YddFilenames />
+  <YftFilenames />
+  <YtdFilenames />
+</CodeWalkerProject>

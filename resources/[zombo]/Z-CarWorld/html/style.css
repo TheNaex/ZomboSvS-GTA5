@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinea al inicio horizontalmente */
+    height: 100vh;
+    background-color: transparent;
+}
+
+#carinfo-container {
+    display: none;
+    position: fixed;
+    left: 10%; /* Ajusta según prefieras la posición en la pantalla */
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    color: #fff; /* Texto blanco */
+    font-size: 1em;
+    width: 300px; /* Ajusta según la anchura que prefieras */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    z-index: 1000; /* Asegura que se muestre sobre otros elementos */
+}
+
+/* Estilos adicionales para títulos y botón de cierre */
+#carinfo-container h1 {
+    color: #4CAF50; /* Verde, ajusta según necesites */
+    margin-bottom: 10px;
+}
+
+#carinfo-container button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #333; /* Botón oscuro */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Para mejorar la legibilidad del texto */
+#carinfo-container div {
+    margin-bottom: 5px;
+}
+
+/* Estilo para el botón de cerrar */
+.close-button {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 0;
+    font-size: 1.5em;
+    cursor: pointer;
+}
